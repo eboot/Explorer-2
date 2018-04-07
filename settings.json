@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "Bulwark Crypto",
+  "title": "",
 
-  "address": "195.201.58.253",
+  "address": "",
 
   // coin name
-  "coin": "Bulwark",
+  "coin": "",
 
   // coin symbol
-  "symbol": "BWK",
+  "symbol": "",
 
   // coin type
   //  Options:
@@ -23,7 +23,7 @@
 
   // The epoch time for a ripple based coin.
   // You can ignore this setting if you're not using a ripple based coin.
-  "rippleEpoch": 946684800,
+  "rippleEpoch": ,
 
   // logo
   "logo": "/images/logo.png",
@@ -73,14 +73,14 @@
     "api": true,
     "markets": false,
     "richlist": true,
-    "twitter": true,
+    "twitter": false,
     "facebook": false,
     "googleplus": false,
     "search": true,
     "movement": true,
     "network": true,
     "masternodes": true,
-    "coininfo": true,
+    "coininfo": false,
     "coinmarketcap": true
   },
 
@@ -104,7 +104,7 @@
   //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex
   //default market is loaded by default and determines last price in header
   "markets": {
-    "coin": "JBS",
+    "coin": "",
     "exchange": "BTC",
     "enabled": ["bittrex"],
     "cryptopia_id": "1658",
@@ -150,16 +150,16 @@
   // Coin info page
   "coininfo": {
     "basic_info_links": [
-      ["Website", "https://bulwarkcrypto.com/"],
-      ["Github", "https://github.com/bulwark-crypto"],
-      ["Bitcointalk", "https://bitcointalk.org/index.php?topic=2499481.0"],
-      ["Reddit", "https://www.reddit.com/r/BulwarkCoin/"],
-      ["Discord", "https://discord.gg/a7vhegP"],
-      ["Telegram", "https://t.me/bulwarkcrypto"],
-      ["Twitter", "https://twitter.com/BulwarkCoin"],
-      ["Cryptopia", "https://www.cryptopia.co.nz/Exchange/?market=BWK_BTC"],
-      ["Stocks.Exchange", "https://stocks.exchange/trade/BWK/BTC"],
-      ["CoinsMarkets", "https://coinsmarkets.com/trade-BTC-BWK.htm"]
+     // ["Website", ""],
+     // ["Github", ""],
+     // ["Bitcointalk", ""],
+     // ["Reddit", ""],
+      //["Discord", ""],
+     // ["Telegram", ""],
+      //["Twitter", ""],
+      //["Cryptopia", ""],
+     // ["Stocks.Exchange", ""],
+      //["CoinsMarkets", ""]
     ],
     "masternode_required": 5000,
     "block_time_sec": 120,
@@ -168,17 +168,17 @@
 
   // CoinMarketCap integration
   "coinmarketcap": {
-    "ticker": "bulwark"
+    "ticker": ""
   },
 
   // twitter, facebook, googleplus
-  "twitter": "explorerztop",
-  "facebook": "yourfacebookpage",
-  "googleplus": "yourgooglepluspage",
+  "twitter": "",
+  "facebook": "",
+  "googleplus": "",
 
   //genesis
-  "genesis_tx": "788282ec3f87feffb231e7a2f12a3e9883355e4f30b9e5be6255d4523f6e2357",
-  "genesis_block": "00000908a5fd7c4c863c9a0281def7b5b9c137b782d66a75753c3954d369eb5c",
+  "genesis_tx": "",
+  "genesis_block": "",
 
   // Fetch blocks from <index>
   "fetch_blocks_from": 0,
